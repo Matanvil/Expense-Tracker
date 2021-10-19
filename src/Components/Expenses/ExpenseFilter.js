@@ -3,9 +3,9 @@ import React from "react";
 import "./ExpenseFilter.css";
 
 const ExpensesFilter = (props) => {
-    const onYearSelect = (event) => {
-        props.onChangeDate(event.target.value);
-    }
+  const onYearSelect = (event) => {
+    props.onChangeDate(event.target.value);
+  };
   return (
     <div className="expenses-filter">
       <div className="expenses-filter__control">
