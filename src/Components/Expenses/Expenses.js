@@ -14,7 +14,6 @@ export default function Expenses(props) {
 
   const yearSelectHandler = (selectedYear) => {
     setFilteredYear(selectedYear);
-    console.log(selectedYear);
   };
 
   return (
